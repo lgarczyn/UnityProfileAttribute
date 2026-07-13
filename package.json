@@ -1,0 +1,26 @@
+{
+  "name": "com.lgarczyn.profile-attribute",
+  "version": "1.0.0",
+  "displayName": "Profile Attribute",
+  "description": "Weaves a Unity ProfilerMarker around any method tagged [Profile], at compile time. Release builds are untouched.",
+  "unity": "2022.3",
+  "keywords": [
+    "profiler",
+    "profiling",
+    "performance",
+    "ilpp",
+    "cecil"
+  ],
+  "author": {
+    "name": "Louis Garczynski",
+    "url": "https://github.com/lgarczyn"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "com.unity.nuget.mono-cecil": "1.11.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lgarczyn/UnityProfileAttribute.git"
+  }
+}
